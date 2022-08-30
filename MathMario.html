@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Math Training</title>
+    <link rel="stylesheet" href="MathTraining.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+
+    //
+
+    <div class="background_start">
+        <img src="./img/background_start.png" alt="background">
+        <audio id="audio"
+               src="./X2Download.app%20-%20Kevin%20MacLeod_%20Pixel%20Peeker%20Polka%20-%20faster%20(320%20kbps).mp3">
+        </audio>
+        <div id="start__game">
+            <p class="title__game__start">MATH MARIO</p>
+            <button id="btn__start__game" class="btn__game__start">
+                PLAY
+            </button>
+        </div>
+    </div>
+
+    //
+
+    <div class="background_play">
+        <img src="./img/background_play.jpg" alt="background">
+        <div class="countdownTimeStart" >
+            <h1 id="countdowTimeStart">3</h1>
+        </div>
+        <div class="tableQuestionEndAnswer">
+            <div style="align-items: center">
+                <div class="tablee" style="width: 100%; display: flex; justify-content: center; margin-top: 1%; margin-left: -7%">
+                    <table style="text-align: center; width: 70%; position: absolute">
+                        <tr>
+                            <td class="time">time: 10</td>
+                            <td colspan="2" id="questionE" class="question">1+2+3+4</td>
+                        </tr>
+                        <tr>
+                            <td class="time"></td>
+                            <td class="level">
+                            </td>
+                            <td class="score">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time"></td>
+                            <td class="answer">
+                            </td>
+                            <td class="answer">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time"></td>
+                            <td class="answer">
+                            </td>
+                            <td class="answer">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    //
+
+    <div class="background_end">
+        <img src="./img/background_end.jpg" alt="background">
+        <div id="end__game">
+            <p class="title__game__start">GAME OVER</p>
+            <button id="btn__end__game" class="btn__game__end">
+                REPLAY
+            </button>
+        </div>
+    </div>
+</div>
+<script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+<script src="Main.js"></script>
+</body>
+</html>
