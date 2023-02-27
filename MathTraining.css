@@ -84,3 +84,6 @@ tr, td {
     color: white;
     font-family: 'Silkscreen', cursive;
 }
+#score, #max_score {
+    font-size: 20px;
+}
