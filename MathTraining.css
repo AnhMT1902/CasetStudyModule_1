@@ -69,10 +69,6 @@ tr, td {
 
 /*endgame*/
 
-.background_end {
-
-}
-
 #end__game {
     margin-top: -45%;
     text-align: center;
@@ -86,4 +82,7 @@ tr, td {
 }
 #score, #max_score {
     font-size: 20px;
+}
+.answers:hover {
+  border: 1px solid white;
 }
