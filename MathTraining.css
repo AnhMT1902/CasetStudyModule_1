@@ -80,9 +80,21 @@ tr, td {
     color: white;
     font-family: 'Silkscreen', cursive;
 }
+
 #score, #max_score {
     font-size: 20px;
 }
+
 .answers:hover {
-  border: 1px solid white;
+    border: 1px solid white;
+}
+
+.btn__game__end {
+    margin-top: 50px;
+    max-width: 300px;
+    height: 80px
+}
+
+.btn__game__end:hover {
+    border: 1px solid white;
 }
